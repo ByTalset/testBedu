@@ -43,7 +43,7 @@ git clone: Realiza una copia desde el serivor central a tu computador.
 
 git remote add origin https://""/""/"".git: Este comando nos sirve para unir nuestra carpeta local de nuestra computadora a nuestro repositorio remoto en GitHub.
 
-git push -u origin main: Este comando se encarga de empujar los cambios realizados en nuestro archivo local a nuestro repositorio en GithHub.
+git push origin "Nombre de la rama que queremos empujar": Este comando se encarga de empujar los cambios realizados en nuestro archivo local a nuestro repositorio en GithHub.
 
 
 
