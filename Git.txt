@@ -16,7 +16,13 @@ Comandos basicos de Git:
 
 pwd: Nos ayuda a visualizar la ruta de carpetas y archivos en los que nos encontramos en Git Bash
 
-ls: Es un listado de todas las carpetas y archivos que se encuentran en dicha ruta.
+mkdir "Nombre que deseemos para la carpeta": Con este comando nosotros podremos crear una nueva carpeta
+
+ls: Es un listado de todas las carpetas que se encuentran en dicha ruta.
+
+ls -l: Muestra un listado de todos los archivos de la carpeta en la que nos encontramos.
+
+cd ..: Nos regresamos a la carpeta anterior.
 
 .gitignore: Es un archivo el cual creamos para en ese escribir los nombres de archivos o carpetas que no queramos agregar a nuestro espacio de trabajo de Git.
 
