@@ -40,6 +40,9 @@ git status: Esto nos sirve para poder visualizar en que estado se encuentran tod
 
 git commit o git commit -m " ": Nos sirve para pasar todos nuestros archivos desde el staging area al repositorio.
 
+git reset --soft "adb626d673b8c398678b9b8e7a0c590d16c1c480": Con este comando nosotros podremos recuperar archivos eliminados por error y que hayamos hecho commits,
+para eso tendremos que utilizar el comando "git log" y copiaremos la numeracion a lado de donde dice commit y posteriormente agregamos nuestro comando.
+
 
 		            CLONANDO
 
