@@ -18,6 +18,8 @@ pwd: Nos ayuda a visualizar la ruta de carpetas y archivos en los que nos encont
 
 mkdir "Nombre que deseemos para la carpeta": Con este comando nosotros podremos crear una nueva carpeta
 
+touch README.md: Con este comando nosotros podremos crear un archivo README.md.
+
 ls: Es un listado de todas las carpetas que se encuentran en dicha ruta.
 
 ls -l: Muestra un listado de todos los archivos de la carpeta en la que nos encontramos.
