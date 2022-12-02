@@ -18,7 +18,9 @@ pwd: Nos ayuda a visualizar la ruta de carpetas y archivos en los que nos encont
 
 mkdir "Nombre que deseemos para la carpeta": Con este comando nosotros podremos crear una nueva carpeta
 
-touch README.md: Con este comando nosotros podremos crear un archivo README.md.
+touch "Nombre del archivo que queremos crear con su extension": Con este comando nosotros podremos crear un archivo (README.md, .html, .css, .js).
+
+rm "Nombre del archivo o carpeta a elminar": Con este comando nosotros podemos eliminar archivos y carpetas.
 
 ls: Es un listado de todas las carpetas que se encuentran en dicha ruta.
 
@@ -40,9 +42,15 @@ git status: Esto nos sirve para poder visualizar en que estado se encuentran tod
 
 git commit o git commit -m " ": Nos sirve para pasar todos nuestros archivos desde el staging area al repositorio.
 
+git commit --amend -m "la modificacion que deseamos hacer": Este comando nos sirve para modificar el titulo del commit 
+en caso de habernos equivocado.
+
+git mv "nombre del archivo" "Nuevo nombre que deseamos colocar al archivo": Este comando nos sirve para modificar el nombre a archivos ya existentes.
+
 git reset --soft "adb626d673b8c398678b9b8e7a0c590d16c1c480": Con este comando nosotros podremos recuperar archivos eliminados por error y que hayamos hecho commits,
 para eso tendremos que utilizar el comando "git log" y copiaremos la numeracion a lado de donde dice commit y posteriormente agregamos nuestro comando.
 
+git reset --hard "adb626d673b8c398678b9b8e7a0c590d16c1c480": Con este comando nosotros podremos recuperar los archivos eliminados.
 
 		            CLONANDO
 
@@ -67,10 +75,11 @@ git diff " ": Con este comando nosotros podemos notar las diferencias o cambios 
 
 git log: Con este comando nosotros podemos visualizar todas las versiones o cambios que hemos realizado en nuestro archivo.
 
+git reflog: Con este comando nosotros podemos revisar el historico de commits realizados, aun que hayamos realizado git reset --hard o --soft.
 
 			        RAMAS
 
-git checkout -- " ": Con este comando nosotros podemos revertir los cambios en nuestro codigo
+git checkout -- "Nombre del archivo": Con este comando nosotros podemos revertir los cambios en nuestro codigo
 
 git branch o git branch -l: Este comando nos sirve para listar las ramas o versiones existentes.
 
